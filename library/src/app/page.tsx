@@ -139,7 +139,7 @@ export default function Home() {
               <code className="font-mono text-xs font-medium text-emerald-400">
                 npx sweep-js sweep
               </code>
-              <CopyButton text="npx sweep-js sweep ." />
+              <CopyButton text="npx sweep-js sweep" />
             </div>
           </div>
 
