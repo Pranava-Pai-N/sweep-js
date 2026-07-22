@@ -168,7 +168,7 @@ git checkout -b feature/amazing-feature
 
 ## License
 
-This project is licensed under the [MIT](./LICENSE)License.
+This project is licensed under the [MIT](./npm-package/LICENSE) License.
 
 
 ## Developer Info
