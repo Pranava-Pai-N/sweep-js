@@ -1,0 +1,39 @@
+{
+  "name": "sweep-js",
+  "version": "0.0.1",
+  "description": "sweep-js is a developer-friendly command-line utility designed to clean up bloated dependency folders across your projects. Whether a complex monorepo or standard single-package repositories, sweep-js recursively locates and safely removes heavy directories like node_modules, .next, dist, build, and __pycache__, including custom folders",
+  "license": "MIT",
+  "author": "Pranava Pai N",
+  "type": "module",
+  "main": "dist/cli.js",
+  "keywords": [
+    "node_modules",
+    "disk-space",
+    "cleanup",
+    "space-management",
+    "developer-tools",
+    "sweep-js"
+  ],
+  "scripts": {
+    "dev": "tsx watch src/cli.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "sweep-js": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pranava-Pai-N/sweep-js"
+  },
+  "readme": "./readme",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
