@@ -1,6 +1,6 @@
 {
   "name": "sweep-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sweep-js is a developer-friendly command-line utility designed to clean up bloated dependency folders across your projects. Whether a complex monorepo or standard single-package repositories, sweep-js recursively locates and safely removes heavy directories like node_modules, .next, dist, build, and __pycache__, including custom folders",
   "license": "MIT",
   "author": "Pranava Pai N",

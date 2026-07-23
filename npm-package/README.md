@@ -44,6 +44,11 @@ Or use it directly with `npx`:
 npx sweep-js sweep .
 ```
 
+## Documentation
+
+View usage and documentation at 
+[Official Documentation](https://sweep.pranava-pai.live).
+
 
 ## Tech Stack
 
