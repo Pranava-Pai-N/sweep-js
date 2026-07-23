@@ -25,6 +25,8 @@ Large projects often accumulate folders that are safe to remove after they are n
 - `build`
 - `__pycache__`
 
+`Note`: Added support for removing redundancy or cache from `10+` Languages starting from `version-0.0.4`
+
 `sweep-js` recursively scans a directory and removes matching folders that you choose to target.
 
 Note:

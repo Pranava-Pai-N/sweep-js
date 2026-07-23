@@ -9,6 +9,7 @@ import { findTargetFolders } from "./services/finder.js";
 import { formatBytes, type unitsType } from "./services/cleanup.js";
 import pkg from "../package.json" with { type: "json"};
 import { startupBanner } from "./services/startup.js";
+import { supportedFormats } from "./services/supportedFormats.js";
 
 const program = new Command();
 
@@ -27,7 +28,7 @@ program
     .option(
         "-t, --targets <folders...>",
         "Folder names to target for cleanup",
-        ["node_modules", ".next", "dist", "build", "__pycache__"]
+        supportedFormats
     )
     .action(async (dirArg: string, options: { targets: string[] }) => {
         const rootDir = path.resolve(dirArg);
