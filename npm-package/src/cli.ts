@@ -7,13 +7,18 @@ import path from "path";
 import handleCleanup from "./services/cleanup.js";
 import { findTargetFolders } from "./services/finder.js";
 import { formatBytes, type unitsType } from "./services/cleanup.js";
+import pkg from "../package.json" with { type: "json"};
+import { startupBanner } from "./services/startup.js";
 
 const program = new Command();
+
+startupBanner()
 
 program
     .name("sweep-js")
     .description("A Simple CLI tool to sweep out unnecessary node_modules, .next folders, dist files and __pycache__ from projects")
-    .version("0.0.1");
+    .version(chalk.green(`Currently using ${pkg.version} version of ${pkg.name}`), "-v,--version", "Fetches the recent version of the package");
+
 
 program
     .command("sweep")

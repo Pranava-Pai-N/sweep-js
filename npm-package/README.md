@@ -1,5 +1,16 @@
 # Sweep-js
 
+```bash
+ ██████╗ ██╗  ██╗  ██╗███████╗███████╗██████╗     ██╗███████╗
+  ██╔════╝ ██║  ██║  ██║██╔════╝██╔════╝██╔══██╗    ██║██╔════╝
+  ███████╗ ██║  ██║  ██║█████╗  █████╗  ██████╔╝    ██║███████╗
+  ╚════██║ ██║  ██║  ██║██╔══╝  ██╔══╝  ██╔═══╝     ██║╚════██║
+  ███████║ ╚██████████╔╝███████╗███████╗██║    ██╗  ██║███████║
+  ╚══════╝  ╚═════██═╝ ╚══════╝╚══════╝╚═╝    ╚═╝  ██║╚══════╝
+                                                  ╚██████╔╝   
+                                                   ╚═════╝    
+```
+
 A lightweight CLI for cleaning up common build and cache folders in a project tree.
 
 If your workspace has grown large from repeated installs, builds, and local experiments, `sweep-js` helps you reclaim disk space quickly without manually hunting down folders one by one.
